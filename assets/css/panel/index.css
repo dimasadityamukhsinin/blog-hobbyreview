@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.logo-text {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo-text:hover {
+    color: white;
+}
+
+.bg-custom {
+    background-color: #2183c4;
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+@media (max-width: 991px) {
+    .bg-custom {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a {
+    font-family: 'Poppins',sans-serif;
+}
+
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+}
+
+footer { 
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    background-color: #2ea3f2;
+    color: white;
+}
+
+.dropdown-menu {
+    right: 0;
+    left: auto !important;   
+}
+
+.dropdown-item {
+    color: black !important;
+}
+
+.navigation {
+    background-color: #2ea3f2;
+    width: 220px !important;
+}
+
+.navigation li {
+    padding-left: 2em !important;
+    height: 40px;
+}
+
+.navigation li:hover {
+    cursor: pointer;
+    background-color: #1396ed;
+}
+
+.navigation-link {
+    color: white; 
+}
+
+.navigation-link:hover {
+    color: white; 
+}
+
+.navigation-link span {
+    color: white; 
+}
+
+nav {
+    height: 100vh;
+}
+
+nav .mt-3 {
+    background-color: white;
+}
+
+nav > div {
+    min-height: 100vh;
+}
+
+.active {
+    border-left: 4px #ebebeb solid;
+}
+
+body {
+    background-color: #ecf0f5 !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
